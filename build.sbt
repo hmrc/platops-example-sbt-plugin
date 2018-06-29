@@ -6,7 +6,7 @@ import uk.gov.hmrc.versioning.SbtGitVersioning.majorVersion
 val pluginName = "platops-example-sbt-plugin"
 
 lazy val project = Project(pluginName, file("."))
-  .enablePlugins(SbtAutoBuildPlugin, SbtGitVersioning)
+  .enablePlugins(SbtAutoBuildPlugin, SbtGitVersioning, SbtArtifactory)
   .settings(
     majorVersion  := 0,
     sbtPlugin     := true,
