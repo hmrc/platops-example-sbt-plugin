@@ -1,7 +1,6 @@
 import uk.gov.hmrc.DefaultBuildSettings._
 import uk.gov.hmrc.SbtAutoBuildPlugin
 import uk.gov.hmrc.versioning.SbtGitVersioning
-import uk.gov.hmrc.versioning.SbtGitVersioning.majorVersion
 
 val pluginName = "platops-example-sbt-plugin"
 
