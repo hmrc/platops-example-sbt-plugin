@@ -9,5 +9,6 @@ lazy val project = Project(pluginName, file("."))
   .settings(
     majorVersion  := 0,
     sbtPlugin     := true,
-    makePublicallyAvailableOnBintray := true
+    makePublicallyAvailableOnBintray := true,
+    crossSbtVersions := Vector("0.13.18", "1.3.4")
   )
